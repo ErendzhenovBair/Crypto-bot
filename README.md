@@ -55,11 +55,6 @@ Cоздаем и активируем виртуальное окружение:
    pip install -r requirements.txt
 ```
 
-```bash
-   pip install -r requirements.txt
-```
-
-
 - Запустить проет:
 
 ```bash
