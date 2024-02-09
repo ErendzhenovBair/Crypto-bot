@@ -1,10 +1,11 @@
-from aiogram import types, Router, F
-from aiogram.fsm.context import FSMContext
+from aiogram import F, Router, types
 from aiogram.filters import Command
+from aiogram.fsm.context import FSMContext
 from binance import AsyncClient
 from binance.exceptions import BinanceAPIException
 
 from data import config
+
 from keyboards.keyboards import get_keyboard
 from states.token import Token
 

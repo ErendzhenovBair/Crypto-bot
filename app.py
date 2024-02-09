@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot, Dispatcher
 
 from data import config
-from handlers import price
 
+from handlers import price
 
 
 async def main():
